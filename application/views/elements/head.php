@@ -26,6 +26,19 @@
 <meta name="robots" content="index, follow" />
 
 <script src="https://cdn.tailwindcss.com"></script>
+<style type="text/tailwindcss">
+  @layer base {
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+}
+  </style>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,300italic,600italic,700" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/5411e794bf.js" crossorigin="anonymous"></script>
