@@ -17,7 +17,7 @@ This is a simple social media authentication web app created using Codeigniter. 
 
 ## Starting the project
 
-Open the [database.php](/application/config/database.php) and fill in your database configurations. Create new MySQL database then import [social_login.sql](/social_login.sql). Next, open the [social.test.php](/application/config/social.test.php) and fill in the configurations for Google, Facebook and Twitter. Finally, go to login page and login with either Facebook, Google, or Twitter account.
+Open the [database.php](/application/config/database.php) and fill in your database configurations. Create new MySQL database then import [social_login.sql](/social_login.sql). Next, open the [social.test.php](/application/config/social.test.php) and fill in the configurations for Google, Facebook and Twitter then rename it as social.php. Finally, go to login page and login with either Facebook, Google, or Twitter account.
 
 ## Demo
 
