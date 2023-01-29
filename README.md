@@ -2,7 +2,7 @@
 
 This is a simple social media authentication web app created using Codeigniter. User can login with either Facebook, Google, or Twitter account.
 
-## Exact copy of Facebook UI
+## Simple Authentication Web App
 
 - This is a simple authentication web app
 - Login using Google, Twitter or Facebook API
