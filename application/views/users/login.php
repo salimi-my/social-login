@@ -4,13 +4,13 @@
 			<div class="rounded-xl bg-white shadow-xl">
 				<div class="p-6 sm:p-16">
 					<div class="space-y-4">
-						<img src="<?php echo base_url(); ?>assets/images/social-login.png" loading="lazy" class="h-20" alt="social login">
+						<img src="<?php echo base_url(); ?>assets/images/social-login.png" class="h-20" width="80" height="80" alt="social login">
 						<h2 class="mb-8 text-2xl text-cyan-900 font-bold">Codeigniter social <br> media login.</h2>
 					</div>
 					<div class="mt-16 grid space-y-4">
 						<button class="group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300 hover:border-orange-600 focus:bg-blue-50 active:bg-blue-100">
 							<div class="relative flex items-center space-x-4 justify-center">
-								<img src="<?php echo base_url(); ?>assets/images/google-icon.svg" class="absolute left-0 w-5" alt="google logo">
+								<img src="<?php echo base_url(); ?>assets/images/google-icon.svg" class="absolute left-0 w-5" width="20" height="20" alt="google logo">
 								<a href="<?php echo $gl_login_url; ?>" class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-orange-600 sm:text-base">
 									Login with Google
 								</a>
@@ -18,7 +18,7 @@
 						</button>
 						<button class="group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300 hover:border-orange-600 focus:bg-blue-50 active:bg-blue-100">
 							<div class="relative flex items-center space-x-4 justify-center">
-								<img src="<?php echo base_url(); ?>assets/images/twitter-icon.svg" class="absolute left-0 w-5" alt="twitter logo">
+								<img src="<?php echo base_url(); ?>assets/images/twitter-icon.svg" class="absolute left-0 w-5" width="20" height="20" alt="twitter logo">
 								<a href="<?php echo $tw_login_url; ?>" class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-orange-600 sm:text-base">
 									Login with Twitter
 								</a>
@@ -26,7 +26,7 @@
 						</button>
 						<button class="group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300 hover:border-orange-600 focus:bg-blue-50 active:bg-blue-100">
 							<div class="relative flex items-center space-x-4 justify-center">
-								<img src="<?php echo base_url(); ?>assets/images/facebook-icon.svg" class="absolute left-0 w-5" alt="facebook logo">
+								<img src="<?php echo base_url(); ?>assets/images/facebook-icon.svg" class="absolute left-0 w-5" width="20" height="20" alt="facebook logo">
 								<a href="<?php echo $fb_login_url; ?>" class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-orange-600 sm:text-base">
 									Login with Facebook
 								</a>

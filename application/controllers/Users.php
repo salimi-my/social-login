@@ -172,7 +172,7 @@ class Users extends CI_Controller
         $userData['last_name'] = isset($name[1]) ? $name[1] : '';
         $userData['email'] = !empty($userProfile->email) ? $userProfile->email : $userProfile->screen_name . '@twitter.com';
         $userData['link'] = !empty($userProfile->screen_name) ? 'https://twitter.com/' . $userProfile->screen_name : '';
-        $userData['picture'] = !empty($userProfile->profile_image_url) ? $userProfile->profile_image_url : '';
+        $userData['picture'] = !empty($userProfile->profile_image_url) ? str_replace('_normal', '', $userProfile->profile_image_url) : '';
         // Insert or update user data
         $userData = $this->users_m->checkUser($userData);
         // set variables in session

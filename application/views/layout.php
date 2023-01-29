@@ -7,12 +7,10 @@
 </head>
 
 <body>
-	<div class="main">
-		<!-- MAIN CONTENT -->
-		<?php echo $maincontent; ?>
-		<!-- FOOTER -->
-		<?php echo $footer; ?>
-	</div>
+	<!-- MAIN CONTENT -->
+	<?php echo $maincontent; ?>
+	<!-- FOOTER -->
+	<?php echo $footer; ?>
 </body>
 
 </html>
